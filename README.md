@@ -18,6 +18,18 @@ TaskPlan is coming soon!
 <!-- Alpha testers -->
 # Alpha Testing
 Alpha tester access for TaskPlan coming soon!
+### How to clone repo, make a change on a new branch, and make a pull request
+`git clone https://github.com/ajb601/TaskPlan.git`
+
+`cd TaskPlan`
+
+`git checkout -b myNewBranch`
+
+`git add .`
+
+`git commit -m "My commit message"`
+
+`git push`
 
 <!-- Caveats and limitations mentioned up-front -->
 
