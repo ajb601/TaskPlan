@@ -138,7 +138,7 @@ community.
 
 ## Signatures
 ![Matthew Tibbitts's signature](/src/tibbitts_signature.jpg)
-![Andrew Bilodeau's signature](/src/signature.jpg)
+![Andrew Bilodeau's signature](/src/Signature.png)
 
 
 ## Attribution
