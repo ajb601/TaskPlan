@@ -11,9 +11,9 @@ Supporting Data:
 Team Action (if any):   
 
 # Observation 3
-Observation Statement:   
-Supporting Data:   
-Team Action (if any):   
+Observation Statement: An Overwhelming amount of people would benefit from showing travel time with a scheduled notification. 
+Supporting Data: Question 4 Answers with 31 Yes and 6 Maybes
+Team Action (if any): Use Google Maps APIs to include the route times in notifications.
 
 # Observation 4
 Observation Statement:   
