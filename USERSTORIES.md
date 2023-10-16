@@ -1,6 +1,6 @@
 ## User Stories
 # User Story 1
-USER STORY:  As a user I want to be able to sign up or sign into the app and have it save my information
+USER STORY:  As a user I want to be able to sign up or sign into the app and have it save my information  
 ACCEPTANCE CRITERIA:  
 - A screen that hosts inputs for email and password, with a password confirmation, as a sign up screen
 - An option to change inputs to just email and password, as a sign in screen
