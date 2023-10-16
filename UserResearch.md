@@ -6,9 +6,9 @@ Supporting Data: 31 of 37 users responded that it would help, the other 6 respon
 Team Action (if any): We will endevor to add a travel time check to the app  
 
 # Observation 2
-Observation Statement:   
-Supporting Data:   
-Team Action (if any):   
+Observation Statement: Majority of responses answered 6 or above that they would prefer a reminder heavy app   
+Supporting Data: 28 of 37 responses were 6 or higher, including 15 of 28 of said responses being 8 or above
+Team Action (if any): Reminders will be given more frequntly then traditional scheduling and reminder apps to ensure task completion
 
 # Observation 3
 Observation Statement: An Overwhelming amount of people would benefit from showing travel time with a scheduled notification. 
