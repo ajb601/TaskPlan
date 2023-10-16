@@ -23,5 +23,5 @@ Alpha tester access for TaskPlan coming soon!
 
 <!-- License -->
 # License
-TaskPlan is available under the MIT License
+TaskPlan is available under the [MIT License](https://github.com/ajb601/TaskPlan/blob/3c0d6781131d40e57959ec7c80dda8a784469fa5/LICENSE.md)
 
