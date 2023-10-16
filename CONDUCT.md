@@ -139,8 +139,9 @@ community.
 ## Signatures
 ![Matthew Tibbitts's signature](/src/tibbitts_signature.jpg)
 ![Andrew Bilodeau's signature](/src/Signature.png)
-![Guillermo Signature](/src/guillermo signature.png)
-![Lisandro Signature](/src/(lisandro_nunez.png)
+![Guillermo Signature](https://github.com/ajb601/TaskPlan/blob/d87e68c994001ab47955b08cee13ce9e4697297e/src/guillermo%20signature.png)
+![Lisandro Signature](/src/(https://github.com/ajb601/TaskPlan/blob/d87e68c994001ab47955b08cee13ce9e4697297e/src/lisandro_nunez.png
+)
 
 
 ## Attribution
