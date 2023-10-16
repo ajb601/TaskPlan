@@ -16,6 +16,9 @@ Supporting Data: Question 4 Answers with 31 Yes and 6 Maybes
 Team Action (if any): Use Google Maps APIs to include the route times in notifications.
 
 # Observation 4
-Observation Statement:   
-Supporting Data:   
-Team Action (if any):   
+Observation Statement: A large amount (>50%) of research responses to "What do you have trouble keeping 
+up with" include Homework. Therefore homework must be an issue that current time management            
+apps do not solve and is a critical issue to people.  
+Supporting Data: 24/38 (63%) responses have "Homework" as the first thing people had trouble keeping up with in their life.
+Team Action (if any): The team should make homework time management a high priority key feature for TaskPlan, and 
+continue to listen to user research in order to perfect homework time management in TaskPlan. 
