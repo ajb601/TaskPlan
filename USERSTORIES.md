@@ -14,12 +14,18 @@ ACCEPTANCE CRITERIA:
 - Users can mark tasks as complete and delete/edit tasks
 
 # User Story 3
-USER STORY:  
+USER STORY:  As a user, I want to be able to be reminded of when I should leave my house to be on time with TaskPlan.
 ACCEPTANCE CRITERIA:  
+- Users can set their home address and then set the location of their meeting on the reminders
+- The app calculates the time between the locations
+- Reminder is sent to user when it compares the time between when they should leave and the time between their locations
 
 # User Story 4
-USER STORY: 
+USER STORY: As a user of TaskPlan, I want to be able to color code my reminders so I can visually tell the importance between my tasks.
 ACCEPTANCE CRITERIA:  
+-Users can change the colors of the tasks/reminders on their lists.
+-TaskPlan should save the color coding based per the user's settings.
+
 
 # User Story 5
 USER STORY: 
