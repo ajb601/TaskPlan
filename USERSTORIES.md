@@ -1,10 +1,12 @@
 ## User Stories
 # User Story 1
-USER STORY:  As a general user I want to be able to sign up or sign into the app and have it save my username and password in the Firebase backend so that I can access the app  
+USER STORY:  As a general user I want to be able to sign up or sign into the app and have it save my email and password in the Firebase backend so that I can access the app  
 ACCEPTANCE CRITERIA:  
 - A screen that hosts inputs for email and password, with a password confirmation, as a sign up screen
 - An option to change inputs to just email and password, as a sign in screen
-- 
+- User data should be successfully saved into the FireBase backend
+- Users should be able to create an account with a unique email and password and use it to sign up for the app and use those credentials to sign into and use the app
+- The app should handle incorrect login/signup attemps with a clear error message
 
 # User Story 2
 USER STORY:  As a user, I want to be able to set tasks and scheduling reminders by using the TaskPlan app and have it save and execute said reminders                                                                               
