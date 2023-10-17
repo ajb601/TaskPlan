@@ -14,12 +14,19 @@ ACCEPTANCE CRITERIA:
 - Users can mark tasks as complete and delete/edit tasks
 
 # User Story 3
-USER STORY:  
-ACCEPTANCE CRITERIA:  
+USER STORY: As a user, I want to be able create named to-do lists for tasks and view all of my named lists in the TaskPlan app 
+ACCEPTANCE CRITERIA: 
+- A central screen to view all named lists
+- A "create list" button to create a new list
+- A text box to enter the name for my new list
+- Add new list to database upon creation
 
 # User Story 4
-USER STORY:
+USER STORY: As a user, I want to be able to delete my named to-do lists for tasks in the TaskPlan app
 ACCEPTANCE CRITERIA:  
+- A hamburger menu inside a named list screen
+- A "delete list" option inside the hamburger menu that deletes the list from the list view
+- List is removed from database upon deletion
 
 # User Story 5
 USER STORY:  As a user, I want to be able to be reminded of when I should leave my house to be on time with TaskPlan.
