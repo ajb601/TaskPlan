@@ -6,6 +6,7 @@
         "Height": "Fill container",
         "Width": "Fill container",
         "Layout": "column",
+        "BackgroundColor": "rgba(37, 104, 182, 1)",
         "Justification": "center",
         "Alignment": "center",
         "Visible": true,
@@ -52,8 +53,7 @@
         "navigationOptions": {
             "headerStyle": {}
         },
-        "tabNavigationOptions": {},
-        "BackgroundColor": "rgba(37, 104, 182, 1)"
+        "tabNavigationOptions": {}
     },
     "children": [
         {
@@ -98,117 +98,9 @@
                 "edgeOffsets": 12
             },
             "children": [],
-            "id": "d65b6f0a-cb73-4a3c-88d3-e7a0b30ca33e",
+            "id": "83f317f1-b746-4182-a0a7-a05b35ebb300",
             "thunkableVersion": 425,
-            "name": "Logo"
-        },
-        {
-            "type": "Button",
-            "translatedName": "Button",
-            "properties": {
-                "Text": "Sign Up",
-                "TextColor": "rgba(0, 0, 0, 1)",
-                "FontSize": 16,
-                "CustomFont": "",
-                "BackgroundColor": "rgba(255, 255, 255, 1)",
-                "Height": 49,
-                "Width": 165,
-                "Visible": true,
-                "X": 105,
-                "Y": 385,
-                "RelativeX": 105,
-                "RelativeY": 385,
-                "ResizeMode": "STRETCH",
-                "style": {
-                    "marginTop": 0,
-                    "marginBottom": 0,
-                    "marginLeft": 0,
-                    "marginRight": 0,
-                    "paddingTop": 0,
-                    "paddingBottom": 0,
-                    "paddingLeft": 0,
-                    "paddingRight": 0,
-                    "borderRadius": 15,
-                    "shadowColor": "rgba(0, 0, 0, 0)",
-                    "shadowOpacity": 0,
-                    "scaledShadowOpacity": 0,
-                    "shadowRadius": 0,
-                    "shadowOffset": {
-                        "width": 0,
-                        "height": 0
-                    },
-                    "position": "absolute",
-                    "left": "49.2%",
-                    "top": "53.79263493253373%",
-                    "display": "flex"
-                },
-                "FontBold": false,
-                "FontItalic": false,
-                "Raised": false,
-                "Disabled": false,
-                "ParentId": "4eb42582-9f23-4dd0-9cee-e44eb32c4fd4",
-                "position": "absolute",
-                "edgeOffsets": 385,
-                "Font": "Bitter"
-            },
-            "children": [],
-            "id": "df437e84-f57d-4b63-bdf1-ad1c2ae86421",
-            "thunkableVersion": 425,
-            "name": "SignUpButton"
-        },
-        {
-            "type": "Button",
-            "translatedName": "Button",
-            "properties": {
-                "Text": "Sign In",
-                "TextColor": "rgba(0, 0, 0, 1)",
-                "FontSize": 16,
-                "CustomFont": "",
-                "BackgroundColor": "rgba(255, 255, 255, 1)",
-                "Height": 46,
-                "Width": 161,
-                "Visible": true,
-                "X": 107,
-                "Y": 287,
-                "RelativeX": 107,
-                "RelativeY": 287,
-                "ResizeMode": "STRETCH",
-                "style": {
-                    "marginTop": 0,
-                    "marginBottom": 0,
-                    "marginLeft": 0,
-                    "marginRight": 0,
-                    "paddingTop": 0,
-                    "paddingBottom": 0,
-                    "paddingLeft": 0,
-                    "paddingRight": 0,
-                    "borderRadius": 15,
-                    "shadowColor": "rgba(0, 0, 0, 0)",
-                    "shadowOpacity": 0,
-                    "scaledShadowOpacity": 0,
-                    "shadowRadius": 0,
-                    "shadowOffset": {
-                        "width": 0,
-                        "height": 0
-                    },
-                    "position": "absolute",
-                    "left": "40.4%",
-                    "top": "41.79863193403298%",
-                    "display": "flex"
-                },
-                "FontBold": false,
-                "FontItalic": false,
-                "Raised": false,
-                "Disabled": false,
-                "ParentId": "4eb42582-9f23-4dd0-9cee-e44eb32c4fd4",
-                "position": "absolute",
-                "edgeOffsets": 287,
-                "Font": "Bitter"
-            },
-            "children": [],
-            "id": "8379792a-4d98-414f-a97f-6cca4541f9e5",
-            "thunkableVersion": 425,
-            "name": "SignInButton"
+            "name": "Logo3"
         },
         {
             "type": "Label",
@@ -276,12 +168,13 @@
                 "Font": "Bitter"
             },
             "children": [],
-            "id": "81dcde88-dfd6-4be4-be2c-ecf88d248043",
+            "id": "fb260373-9d34-4a2f-8a27-b139f33e0fdc",
             "thunkableVersion": 425,
-            "name": "TaskPlanLabel"
+            "name": "TaskPlanLabel3"
         }
     ],
-    "id": "4eb42582-9f23-4dd0-9cee-e44eb32c4fd4",
+    "id": "71074344-3515-43f6-ae68-4bbefa82a4b9",
     "thunkableVersion": 425,
-    "name": "TaskPlanSignInUp"
+    "bindings": null,
+    "name": "TaskPlanHome"
 }

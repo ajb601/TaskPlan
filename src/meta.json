@@ -7,7 +7,24 @@
                     "children": []
                 }
             },
-            "assets": {},
+            "assets": {
+                "6532d5e708bdb309c4af32ad": {
+                    "externalStorageType": "GCS",
+                    "_id": "6532d5e708bdb309c4af32ad",
+                    "size": "192836",
+                    "mimetype": "image/png",
+                    "encoding": "7bit",
+                    "originalname": "Screenshot 2023-10-20 at 3.29.08\u202fPM.png",
+                    "backendURI": "/project/6532cdcadc3868a9b05f86ef/getasset/6532d5e708bdb309c4af32ad",
+                    "name": "Screenshot 2023-10-20 at 3.29.08\u202fPM.png",
+                    "externalName": "users/64fe6c4eef8d2ba1f696fde1/projects/6532cdcadc3868a9b05f86ef/assets/6532d5e708bdb309c4af32ad",
+                    "createdAt": "2023-10-20T19:32:55.356Z",
+                    "updatedAt": "2023-10-20T19:32:55.356Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64fe6c4eef8d2ba1f696fde1/projects/6532cdcadc3868a9b05f86ef/assets/6532d5e708bdb309c4af32ad?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231020%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231020T193255Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=b809d45ed22f628e9fd3d04734f1518e09e1d9a41c650ffc184ab73bb5e9d0b9ab42116012672ca0de3280ea93c5514762f7e672b66997304cabf9072c73f74f8730799ac60b8505a7511c1c62f2cf3f6eb29e7d15235f481ca06592e6e0914636a51ace83d8640695b1326ca719f1ccd55144c34bcd5c58989620ab5fa2659944f1f6754bb3752c7027abea87247f4750bdff4f593faed4e53f190fd1ee0fa47c0145e993206b20a4a67a78bc31c1d119c913af3a5534711177b9309064e510f5f76e03265aa83f1027bb6c0d66498caebc3802b532bf3083539a1f5ce09e2dc3e52c45a0ccea662c6aa8112d11bb3fb2e0075312e1f684b6d693bb42ad842b",
+                    "signedUrlExpirationTime": 1698003175391
+                }
+            },
             "backendUpgradeVersion": 22,
             "blockly": {},
             "categories": [
@@ -17,6 +34,15 @@
                 "children": [
                     {
                         "id": "4eb42582-9f23-4dd0-9cee-e44eb32c4fd4"
+                    },
+                    {
+                        "id": "3ef4b625-bea6-4363-90d5-22505a044020"
+                    },
+                    {
+                        "id": "85c8a52c-631f-45a6-a273-fb418088f3a3"
+                    },
+                    {
+                        "id": "71074344-3515-43f6-ae68-4bbefa82a4b9"
                     }
                 ]
             },
