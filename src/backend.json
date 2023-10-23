@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema#",
+  "title": "TaskPlan User Schema",
+  "description": "A schema for a TaskPlan object.",
+  "type": "object",
+  "properties": {
+    "username": {
+      "type": "string",
+      "unique": true,
+      "description": "The username of the user."
+    },
+    "lists": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "The name of the list."
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "description": "The name of the item in the list."
+                },
+                "done": {
+                  "type": "boolean",
+                  "description": "Whether or not the item is done."
+                }
+              },
+              "required": ["name", "done"]
+            }
+          },
+          "required": ["name", "items"]
+        }
+      }
+    }
+  },
+  "required": ["username", "lists"]
+}
