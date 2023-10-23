@@ -21,8 +21,8 @@
                     "createdAt": "2023-10-20T19:32:55.356Z",
                     "updatedAt": "2023-10-20T19:32:55.356Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64fe6c4eef8d2ba1f696fde1/projects/6532cdcadc3868a9b05f86ef/assets/6532d5e708bdb309c4af32ad?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231020%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231020T193255Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=b809d45ed22f628e9fd3d04734f1518e09e1d9a41c650ffc184ab73bb5e9d0b9ab42116012672ca0de3280ea93c5514762f7e672b66997304cabf9072c73f74f8730799ac60b8505a7511c1c62f2cf3f6eb29e7d15235f481ca06592e6e0914636a51ace83d8640695b1326ca719f1ccd55144c34bcd5c58989620ab5fa2659944f1f6754bb3752c7027abea87247f4750bdff4f593faed4e53f190fd1ee0fa47c0145e993206b20a4a67a78bc31c1d119c913af3a5534711177b9309064e510f5f76e03265aa83f1027bb6c0d66498caebc3802b532bf3083539a1f5ce09e2dc3e52c45a0ccea662c6aa8112d11bb3fb2e0075312e1f684b6d693bb42ad842b",
-                    "signedUrlExpirationTime": 1698003175391
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64fe6c4eef8d2ba1f696fde1/projects/6532cdcadc3868a9b05f86ef/assets/6532d5e708bdb309c4af32ad?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231023%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231023T053918Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=9d5971d8cf5015e87407ca62568f555547b72d463e8753336563485e01eb1ea9ec9a57950fa7a6738837d9d75f224ec5d5ee92e8ddc0474737efcf884e7c07a4d0de1c71a2c53e473ab620a56366c5e2798ae77b1c85646721247285cc363c54505cd7bacf6b193a2bfbc7eae539ffc7ee4cf9aa24e5a54c40d5f857aa59128421bb0060d1baa150af4229adc49e8bf8797d744526882d76cf5b4590051c3f2a84904f398b0f3cb2935b27e81857112188583128a4141f6018abb8b1d8c32c692febb7a81a627ef2a546ef50aacb170ce3bfa46ec1b89acc12cbd143c3a1c4ae1cb5f27bdec5a942da7eff38a76c3783de3b8512ef02fd7141359d6720eda3e5",
+                    "signedUrlExpirationTime": 1698212358889
                 }
             },
             "backendUpgradeVersion": 22,
@@ -52,7 +52,7 @@
             "projectName": "TaskPlan",
             "settings": {
                 "teamId": null,
-                "appName": null,
+                "appName": "TaskPlan",
                 "icon": null,
                 "autoIncrementVersion": true,
                 "ignoreNotchArea": false,
@@ -61,8 +61,8 @@
                 "androidVersionCode": 1,
                 "iosVersionNumber": "1",
                 "iosBuildNumber": "1",
-                "firebaseAPIKey": null,
-                "firebaseDatabaseURL": null,
+                "firebaseAPIKey": "\"AIzaSyClrv5EUhpXxnp3eYWE1y_Xs1iuVGe5xq8\"",
+                "firebaseDatabaseURL": "\"https://taskplan-7c91c-default-rtdb.firebaseio.com\"",
                 "stripePublishableKeyTest": null,
                 "stripePublishableKeyLive": null,
                 "stripeAccountId": null,
@@ -96,7 +96,7 @@
             },
             "projectSettings": {
                 "teamId": null,
-                "appName": null,
+                "appName": "TaskPlan",
                 "icon": null,
                 "autoIncrementVersion": true,
                 "ignoreNotchArea": false,
@@ -105,8 +105,8 @@
                 "androidVersionCode": 1,
                 "iosVersionNumber": "1",
                 "iosBuildNumber": "1",
-                "firebaseAPIKey": null,
-                "firebaseDatabaseURL": null,
+                "firebaseAPIKey": "\"AIzaSyClrv5EUhpXxnp3eYWE1y_Xs1iuVGe5xq8\"",
+                "firebaseDatabaseURL": "\"https://taskplan-7c91c-default-rtdb.firebaseio.com\"",
                 "stripePublishableKeyTest": null,
                 "stripePublishableKeyLive": null,
                 "stripeAccountId": null,

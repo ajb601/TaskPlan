@@ -1,4 +1,5 @@
 {
+    "id": "3ef4b625-bea6-4363-90d5-22505a044020",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -604,7 +605,6 @@
             "name": "TaskPlanLabel1"
         }
     ],
-    "id": "3ef4b625-bea6-4363-90d5-22505a044020",
     "thunkableVersion": 425,
     "bindings": null,
     "name": "TaskPlanSignIn"
