@@ -62,6 +62,104 @@
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
+                "Text": "Save your details?",
+                "FontSize": 18,
+                "CustomFont": "",
+                "LineHeight": 1,
+                "Color": "rgba(0, 0, 0, 1)",
+                "Height": 29,
+                "Width": 157,
+                "Visible": true,
+                "X": 77,
+                "Y": 397,
+                "RelativeX": 77,
+                "RelativeY": 397,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "color": "rgba(0, 0, 0, 1)",
+                    "fontSize": 18,
+                    "fontStyle": "normal",
+                    "textShadowOffset": {},
+                    "letterSpacing": 0,
+                    "textDecorationLine": "none",
+                    "textDecorationStyle": "solid",
+                    "textDecorationColor": "rgba(0, 0, 0, 1)",
+                    "writingDirection": "auto",
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "flexWrap": "wrap",
+                    "borderWidth": 0,
+                    "borderRadius": 0,
+                    "borderColor": "rgba(236, 237, 237, 1)",
+                    "borderStyle": "solid",
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "12.666666666666666%",
+                    "top": "57.180003748125934%",
+                    "lineHeight": 1,
+                    "display": "flex"
+                },
+                "ParentId": "3ef4b625-bea6-4363-90d5-22505a044020",
+                "position": "absolute",
+                "edgeOffsets": 397,
+                "children": "Save your details?"
+            },
+            "children": [],
+            "id": "3254bf3c-9525-41e5-942b-c78e82035ab7",
+            "thunkableVersion": 425,
+            "name": "Save Label"
+        },
+        {
+            "type": "Switch",
+            "translatedName": "Switch",
+            "reactType": "Switch",
+            "properties": {
+                "value": true,
+                "Visible": true,
+                "tintColor": "rgba(176, 176, 176, 100)",
+                "onTintColor": "rgba(208, 215, 231, 100)",
+                "thumbTintColor": "rgba(93, 122, 252, 100)",
+                "offThumbTintColor": "rgba(248, 249, 251, 100)",
+                "Height": 20,
+                "Width": 40,
+                "X": 261,
+                "Y": 402,
+                "RelativeX": 261,
+                "RelativeY": 402,
+                "ResizeMode": "STRETCH",
+                "ParentId": "3ef4b625-bea6-4363-90d5-22505a044020",
+                "position": "absolute",
+                "edgeOffsets": 402,
+                "style": {
+                    "position": "absolute",
+                    "left": "14.266666666666667%",
+                    "top": "55.0810532233883%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "cb760ce8-79d7-4ea0-a2b8-b41d75c3e60b",
+            "thunkableVersion": 425,
+            "name": "Save Switch"
+        },
+        {
+            "type": "Label",
+            "translatedName": "Label",
+            "reactType": "Text",
+            "properties": {
                 "Text": "",
                 "FontSize": 18,
                 "CustomFont": "",
@@ -238,7 +336,7 @@
             "children": [],
             "id": "704aa3ef-d878-4248-aaf4-628bc7bf7d96",
             "thunkableVersion": 425,
-            "name": "Text_Input2"
+            "name": "pass input"
         },
         {
             "type": "Label",
@@ -303,7 +401,7 @@
             "children": [],
             "id": "c5d94c8d-9042-4aa5-8a27-276d249d3c34",
             "thunkableVersion": 425,
-            "name": "PassInput"
+            "name": "Pass Label"
         },
         {
             "type": "TextInput",
@@ -313,9 +411,9 @@
                 "Height": 27,
                 "Width": 222,
                 "Visible": true,
-                "X": 129,
+                "X": 122,
                 "Y": 281,
-                "RelativeX": 129,
+                "RelativeX": 122,
                 "RelativeY": 281,
                 "ResizeMode": "STRETCH",
                 "style": {
@@ -367,7 +465,7 @@
             "children": [],
             "id": "d0791fa9-09e1-47cb-86ea-a92f275deaf4",
             "thunkableVersion": 425,
-            "name": "Text_Input1"
+            "name": "e-mail input"
         },
         {
             "type": "Label",
@@ -432,7 +530,7 @@
             "children": [],
             "id": "86c70060-1644-417b-a4ed-168d75846b80",
             "thunkableVersion": 425,
-            "name": "emailInput"
+            "name": "email label"
         },
         {
             "type": "Image",

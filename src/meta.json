@@ -26,7 +26,48 @@
                 }
             },
             "backendUpgradeVersion": 22,
-            "blockly": {},
+            "blockly": {
+                "4eb42582-9f23-4dd0-9cee-e44eb32c4fd4": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
+                },
+                "3ef4b625-bea6-4363-90d5-22505a044020": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
+                },
+                "85c8a52c-631f-45a6-a273-fb418088f3a3": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
+                },
+                "71074344-3515-43f6-ae68-4bbefa82a4b9": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
+                }
+            },
             "categories": [
                 "Just testing"
             ],
@@ -61,8 +102,8 @@
                 "androidVersionCode": 1,
                 "iosVersionNumber": "1",
                 "iosBuildNumber": "1",
-                "firebaseAPIKey": "\"AIzaSyClrv5EUhpXxnp3eYWE1y_Xs1iuVGe5xq8\"",
-                "firebaseDatabaseURL": "\"https://taskplan-7c91c-default-rtdb.firebaseio.com\"",
+                "firebaseAPIKey": "AIzaSyClrv5EUhpXxnp3eYWE1y_Xs1iuVGe5xq8",
+                "firebaseDatabaseURL": "https://taskplan-7c91c-default-rtdb.firebaseio.com",
                 "stripePublishableKeyTest": null,
                 "stripePublishableKeyLive": null,
                 "stripeAccountId": null,
@@ -105,8 +146,8 @@
                 "androidVersionCode": 1,
                 "iosVersionNumber": "1",
                 "iosBuildNumber": "1",
-                "firebaseAPIKey": "\"AIzaSyClrv5EUhpXxnp3eYWE1y_Xs1iuVGe5xq8\"",
-                "firebaseDatabaseURL": "\"https://taskplan-7c91c-default-rtdb.firebaseio.com\"",
+                "firebaseAPIKey": "AIzaSyClrv5EUhpXxnp3eYWE1y_Xs1iuVGe5xq8",
+                "firebaseDatabaseURL": "https://taskplan-7c91c-default-rtdb.firebaseio.com",
                 "stripePublishableKeyTest": null,
                 "stripePublishableKeyLive": null,
                 "stripeAccountId": null,
@@ -150,7 +191,33 @@
             "totalCopy": "0",
             "totalStar": "0",
             "starAction": "star",
-            "variables": {},
+            "variables": {
+                "a53ff075-291c-49bb-838e-f08f96e8f6a3": {
+                    "scope": "APP",
+                    "name": "session email",
+                    "screenId": "3ef4b625-bea6-4363-90d5-22505a044020"
+                },
+                "cc20b8e0-43e8-4513-9500-890197c1e518": {
+                    "scope": "APP",
+                    "name": "user ID",
+                    "screenId": "3ef4b625-bea6-4363-90d5-22505a044020"
+                },
+                "b6bd34e5-20dd-4087-8d8b-4bea1196b16c": {
+                    "scope": "STORED",
+                    "name": "email",
+                    "screenId": "3ef4b625-bea6-4363-90d5-22505a044020"
+                },
+                "94e08049-882e-4d77-8721-56048439ab0a": {
+                    "scope": "STORED",
+                    "name": "password",
+                    "screenId": "3ef4b625-bea6-4363-90d5-22505a044020"
+                },
+                "75fc2faf-7f41-4c0f-9a3f-11a437f30b9f": {
+                    "scope": "APP",
+                    "name": "currentlySigningUp",
+                    "screenId": "85c8a52c-631f-45a6-a273-fb418088f3a3"
+                }
+            },
             "defaultDesignerDevice": "PHONE",
             "defaultDesignerOrientation": "PORTRAIT",
             "schemaVersion": 2,
