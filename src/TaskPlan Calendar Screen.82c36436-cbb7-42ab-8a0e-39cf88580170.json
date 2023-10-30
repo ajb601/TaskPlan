@@ -1,5 +1,4 @@
 {
-    "id": "71074344-3515-43f6-ae68-4bbefa82a4b9",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -61,7 +60,7 @@
             "type": "Button",
             "translatedName": "Button",
             "properties": {
-                "Text": "Calendar",
+                "Text": "Task List",
                 "TextColor": "rgba(0, 0, 0, 1)",
                 "FontSize": 16,
                 "CustomFont": "",
@@ -106,10 +105,10 @@
                 "edgeOffsets": 610
             },
             "children": [],
-            "id": "f024656f-b8f1-4413-8400-bcbae3b364ee",
+            "id": "8f2deb42-4564-4c8e-af69-e28a3684abe3",
             "thunkableVersion": 426,
             "bindings": null,
-            "name": "View Calendar Button"
+            "name": "View Task List Button"
         },
         {
             "type": "Button",
@@ -160,16 +159,16 @@
                 "edgeOffsets": 610
             },
             "children": [],
-            "id": "af71d0db-6ad9-45a9-943c-25676a34bc1e",
+            "id": "3dd5dc52-a7e3-44f3-b29d-9512cfc642ae",
             "thunkableVersion": 426,
-            "name": "Set Task Button"
+            "name": "Set Task Button2"
         },
         {
             "type": "Label",
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "Task List",
+                "Text": "Calendar",
                 "FontSize": 30,
                 "CustomFont": "",
                 "LineHeight": 1,
@@ -225,13 +224,13 @@
                 "ParentId": "71074344-3515-43f6-ae68-4bbefa82a4b9",
                 "position": "absolute",
                 "edgeOffsets": 120,
-                "children": "Task List",
+                "children": "Calendar",
                 "FontWeight": "bold"
             },
             "children": [],
-            "id": "6877bedf-c14a-490e-873f-e477c3975a98",
+            "id": "e9a05779-3115-4c7c-b6f0-f2e3dcbc247f",
             "thunkableVersion": 425,
-            "name": "Temp Label"
+            "name": "Temp Label2"
         },
         {
             "type": "Button",
@@ -282,9 +281,9 @@
                 "edgeOffsets": 12.999999999999972
             },
             "children": [],
-            "id": "188d0e1e-f7d6-4bf1-8ada-9ef4f518e93e",
+            "id": "73335ddf-75cb-4a22-b7a7-ed5315f3d00d",
             "thunkableVersion": 425,
-            "name": "Sign Out Button"
+            "name": "Sign Out Button2"
         },
         {
             "type": "Image",
@@ -328,12 +327,13 @@
                 "edgeOffsets": -1.7763568394002505e-15
             },
             "children": [],
-            "id": "83f317f1-b746-4182-a0a7-a05b35ebb300",
+            "id": "09e802b0-2a9c-497b-9377-b2aef3cdc4af",
             "thunkableVersion": 425,
-            "name": "Logo3"
+            "name": "Logo5"
         }
     ],
-    "thunkableVersion": 425,
+    "id": "82c36436-cbb7-42ab-8a0e-39cf88580170",
+    "thunkableVersion": 426,
     "bindings": null,
-    "name": "TaskPlanHome"
+    "name": "TaskPlan Calendar Screen"
 }
