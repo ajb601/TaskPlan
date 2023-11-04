@@ -4,25 +4,44 @@
             "apiComponents": {
                 "ApiContainer": {
                     "id": "ApiContainer",
-                    "children": []
+                    "children": [
+                        {
+                            "type": "Alert",
+                            "translatedName": "Alert",
+                            "isApi": true,
+                            "properties": {
+                                "ConfirmButton": {
+                                    "Text": "Confirm"
+                                },
+                                "CancelButton": {
+                                    "Text": "Cancel"
+                                }
+                            },
+                            "children": [],
+                            "id": "dce63a5f-b029-4810-a3d9-35da1c6909cb",
+                            "thunkableVersion": 428,
+                            "name": "Alert1"
+                        }
+                    ]
                 }
             },
             "assets": {
-                "6532d5e708bdb309c4af32ad": {
+                "653fdd39e4d684cb8f8a9021": {
                     "externalStorageType": "GCS",
-                    "_id": "6532d5e708bdb309c4af32ad",
+                    "_id": "653fdd39e4d684cb8f8a9021",
                     "size": "192836",
                     "mimetype": "image/png",
                     "encoding": "7bit",
                     "originalname": "Screenshot 2023-10-20 at 3.29.08\u202fPM.png",
-                    "backendURI": "/project/6532cdcadc3868a9b05f86ef/getasset/6532d5e708bdb309c4af32ad",
+                    "backendURI": "/project/653fdd39e4d684d8068a901f/getasset/653fdd39e4d684cb8f8a9021",
                     "name": "Screenshot 2023-10-20 at 3.29.08\u202fPM.png",
-                    "externalName": "users/64fe6c4eef8d2ba1f696fde1/projects/6532cdcadc3868a9b05f86ef/assets/6532d5e708bdb309c4af32ad",
+                    "externalName": "users/64ec032dc3ccc50be1b48487/projects/653fdd39e4d684d8068a901f/assets/653fdd39e4d684cb8f8a9021",
                     "createdAt": "2023-10-20T19:32:55.356Z",
                     "updatedAt": "2023-10-20T19:32:55.356Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64fe6c4eef8d2ba1f696fde1/projects/6532cdcadc3868a9b05f86ef/assets/6532d5e708bdb309c4af32ad?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231030%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231030T014142Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=b96ced12679e04456ab46226575269f8eae539af4dee9ba7f992dca4f8a37ae6f4aa7c4c80a2536d294da641d94c94e1204afbba07a28f2b3adce6061c5b6ce7de11ae8c46d5f266f3172d852bb56c1e36ea37d60867d7c1d100056e2a30d3cc1ec2b585daaa91fb7425591d780871fe92c9965e33d110ce3276a63aceef67eb0cdb0f0b65eef2267d0b4f8c5ab1c338a95cb0849f412a650dc4e9e8b768914215d037dea84a8b080b1106e9d85dc90880e38ce32d7cf8e24151f8103e5f462d29431d572d0a23eb5015da3459707c907d9ba31332b1662f7ae12d63e4f3293388dadba7f4b7031e504c346338f47ab00fff111d89cb3df0cd92cbc25f570d5a",
-                    "signedUrlExpirationTime": 1698802902481
+                    "id": "653fdd39e4d684cb8f8a9021",
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64ec032dc3ccc50be1b48487/projects/653fdd39e4d684d8068a901f/assets/653fdd39e4d684cb8f8a9021?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231104%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231104T204155Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=68ef89cd554d696f0f76045130964a5fb7549c413cdf64c9bfef8dd08844468919b706ce1c488ec9ab25059080ffa58386fb56f70d0f8890bbf705a25822a2d730ef2ce9dd993355aab374e3e7fac7cc92f9f112b01d0ba1a3e4e0b9fff9ca0d4eb0a417b28d72b20aba1dfa077fc3fc205e22e13ad8fcccb5ce5a4fa3d434bd1ef9cc7c83c6b629076c018454c1e037cb46798984f231895f3908584baaeb2746bceb2924eb455e545263de5cf2ce4d5ccee614707a57a4789ddb67120b38f0827be4ed27a8603bc7f865c0aca09cc79747c0035aa403e485912ed6b25618b656f3def4843d0367cca2b8411e71e427ad777b89fea29f6307e0ef0796dbca90",
+                    "signedUrlExpirationTime": 1699303315617
                 }
             },
             "backendUpgradeVersion": 23,
@@ -116,7 +135,7 @@
             "figmaComponents": {},
             "description": null,
             "icon": null,
-            "projectName": "TaskPlan",
+            "projectName": "TaskPlan copy1",
             "settings": {
                 "teamId": null,
                 "appName": "TaskPlan",
@@ -147,7 +166,9 @@
                 "cloudinaryAPIKey": null,
                 "cloudinaryAPISecret": null,
                 "permissions": {
-                    "ios": {}
+                    "ios": {
+                        "usageDescriptions": {}
+                    }
                 },
                 "googleMapAPIKeyAndroid": null,
                 "googleMapAPIKeyIOS": null,
@@ -191,7 +212,9 @@
                 "cloudinaryAPIKey": null,
                 "cloudinaryAPISecret": null,
                 "permissions": {
-                    "ios": {}
+                    "ios": {
+                        "usageDescriptions": {}
+                    }
                 },
                 "googleMapAPIKeyAndroid": null,
                 "googleMapAPIKeyIOS": null,
@@ -224,7 +247,7 @@
                     "screenId": "3ef4b625-bea6-4363-90d5-22505a044020"
                 },
                 "cc20b8e0-43e8-4513-9500-890197c1e518": {
-                    "scope": "APP",
+                    "scope": "CLOUD",
                     "name": "user ID",
                     "screenId": "3ef4b625-bea6-4363-90d5-22505a044020"
                 },
@@ -242,6 +265,11 @@
                     "scope": "APP",
                     "name": "currentlySigningUp",
                     "screenId": "85c8a52c-631f-45a6-a273-fb418088f3a3"
+                },
+                "4637a50a-9eca-4546-9302-c7b3ee8e3cfe": {
+                    "scope": "APP",
+                    "name": "Task",
+                    "screenId": "e8b3a5c4-6c30-46f2-9d12-fd9e076a39cd"
                 }
             },
             "defaultDesignerDevice": "PHONE",
