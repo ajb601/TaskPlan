@@ -58,13 +58,13 @@
                 "TextItemsBackgroundColor": "rgba(0,0,0,0)",
                 "TextItemsFontSize": 16,
                 "ShowArrow": true,
-                "Height": 240,
-                "Width": 311,
+                "Height": 274,
+                "Width": 315,
                 "Visible": true,
                 "X": 32,
-                "Y": 222,
+                "Y": 181,
                 "RelativeX": 32,
-                "RelativeY": 222,
+                "RelativeY": 181,
                 "ResizeMode": "STRETCH",
                 "Justification": "center",
                 "Alignment": "center",
@@ -86,20 +86,20 @@
                         "height": 0
                     },
                     "position": "absolute",
-                    "left": "19.066670735677082%",
-                    "top": "39.411544227886054%",
+                    "left": "26.266666666666666%",
+                    "top": "36.10148050974513%",
                     "display": "flex",
                     "justifyContent": "center",
                     "alignItems": "center"
                 },
                 "ParentId": "71074344-3515-43f6-ae68-4bbefa82a4b9",
                 "position": "absolute",
-                "edgeOffsets": 222
+                "edgeOffsets": 181
             },
             "children": [],
-            "id": "c25a88db-30a3-4735-9b98-fcd8f876e7c8",
+            "id": "c3e0d45e-9970-498d-8942-a981abd0a598",
             "thunkableVersion": 428,
-            "name": "Task_List"
+            "name": "Task_List_viewer"
         },
         {
             "type": "Button",
