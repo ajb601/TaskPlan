@@ -1,4 +1,5 @@
 {
+    "id": "e8b3a5c4-6c30-46f2-9d12-fd9e076a39cd",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -2105,7 +2106,6 @@
             "name": "Logo4"
         }
     ],
-    "id": "e8b3a5c4-6c30-46f2-9d12-fd9e076a39cd",
     "thunkableVersion": 426,
     "bindings": null,
     "name": "Task Input Screen"

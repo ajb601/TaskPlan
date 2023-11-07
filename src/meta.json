@@ -12,9 +12,9 @@
                             "reactType": "Web",
                             "properties": {},
                             "children": [],
-                            "id": "65c4d43a-7d96-4dd6-9984-1064b12d47db",
+                            "id": "a7805e44-a2e6-4a23-9694-d0b86e80ef32",
                             "thunkableVersion": 428,
-                            "name": "Web_API1"
+                            "name": "Maps Distance API"
                         },
                         {
                             "type": "Alert",
@@ -51,8 +51,8 @@
                     "updatedAt": "2023-10-20T19:32:55.356Z",
                     "__v": 0,
                     "id": "653fdd39e4d684cb8f8a9021",
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64ec032dc3ccc50be1b48487/projects/653fdd39e4d684d8068a901f/assets/653fdd39e4d684cb8f8a9021?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231106%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231106T032550Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=3ea262a37b17218a8743423f5599b0f8ebe8a4b7b58f911acac0778ec19bb7dd7a35f1aef6bfec1999808ab87ea9577b9f237879f06232136b5ee9bb3f82321b90cfaf58d1395ed64b2349d9cc7d5bae01d6cb22e577f99c63683c9e287b880f9b30738226e461cbe5a80490dc2055ab24ec33c76699979d3ee2dce91e541ccff729e6edb214b1f6c67f5ac999a74d3a53da03267c24f85fbea4a5e34df6e2f836cbe9da0805054c36298fc7107a491c733b7554379db660763849c5e1a9f92ef7deedd9401d3da0b065eff7ab1ef1858938aafbb5a2784c04cdb97a7b8becf33df25ed7bc4c6f4d3b2d017dc96ad315f3d436100be2df6440ae472597e771a0",
-                    "signedUrlExpirationTime": 1699413950838
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64ec032dc3ccc50be1b48487/projects/653fdd39e4d684d8068a901f/assets/653fdd39e4d684cb8f8a9021?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231107%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231107T034646Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=20711b9b99aebcd96a394617ecd394fa722bac646857cbb060eed08025485c6572286ca3e72ee092a18db4fbf634c808b86c2d17db617a1c0825e7c8ce3f6460e1aadc42a00a4ac5a185745756d301ae8e65284c44223ea2a9a33e52c09ca0ec395e6dcc306acbcc2dd1bc944c76da77ddb9d1aafe2f63c7b9d3ae8955a71a99332a1083919e8c6f1b6b979f48565ea49d06040bdf0d38e6c6e1bada5a3eea42c01b69c422fdad7cfe67a8d9ddda20178c239ba37325045741b4ee3f166843f6cf90edd2eeb89d0101dd602c4b32cb4cf54427af96799e571e6913e03f4737d93810274ff3063a99609147b9d59f484023f2f1c2b9f41fe38abd2413830437bb",
+                    "signedUrlExpirationTime": 1699501606123
                 }
             },
             "backendUpgradeVersion": 23,
@@ -248,7 +248,7 @@
             "customProperties": [],
             "modules": [],
             "usesDragDropUi": true,
-            "totalCopy": "1",
+            "totalCopy": "0",
             "totalStar": "0",
             "starAction": "star",
             "variables": {
@@ -276,6 +276,36 @@
                     "scope": "APP",
                     "name": "currentlySigningUp",
                     "screenId": "85c8a52c-631f-45a6-a273-fb418088f3a3"
+                },
+                "afa5155f-c283-4ce9-98ef-ef3f86b870ee": {
+                    "scope": "APP",
+                    "name": "mapsQueryURL",
+                    "screenId": "71074344-3515-43f6-ae68-4bbefa82a4b9"
+                },
+                "1c12f216-5611-4bb9-9188-4d5e13fce4e5": {
+                    "scope": "APP",
+                    "name": "taskAddress",
+                    "screenId": "71074344-3515-43f6-ae68-4bbefa82a4b9"
+                },
+                "f26dfc6b-568b-464a-aec6-d37463b4711f": {
+                    "scope": "APP",
+                    "name": "transportationMode",
+                    "screenId": "71074344-3515-43f6-ae68-4bbefa82a4b9"
+                },
+                "6563a9f2-5d09-4844-acbc-4f069214a784": {
+                    "scope": "APP",
+                    "name": "mapsOrigin",
+                    "screenId": "71074344-3515-43f6-ae68-4bbefa82a4b9"
+                },
+                "7222fb9e-3641-45de-ad27-539f8b15bf0a": {
+                    "scope": "APP",
+                    "name": "mapsDestination",
+                    "screenId": "71074344-3515-43f6-ae68-4bbefa82a4b9"
+                },
+                "410bbd21-0a82-484f-8a31-68fb295f0cb5": {
+                    "scope": "APP",
+                    "name": "mapsApiKey",
+                    "screenId": "71074344-3515-43f6-ae68-4bbefa82a4b9"
                 }
             },
             "defaultDesignerDevice": "PHONE",
