@@ -49,6 +49,59 @@
     },
     "children": [
         {
+            "type": "List Viewer",
+            "translatedName": "Simple List",
+            "reactType": "ListView",
+            "properties": {
+                "TextItems": [],
+                "TextItemsColor": "rgba(176, 176, 176, 1)",
+                "TextItemsBackgroundColor": "rgba(0,0,0,0)",
+                "TextItemsFontSize": 16,
+                "ShowArrow": true,
+                "Height": 240,
+                "Width": 311,
+                "Visible": true,
+                "X": 32,
+                "Y": 222,
+                "RelativeX": 32,
+                "RelativeY": 222,
+                "ResizeMode": "STRETCH",
+                "Justification": "center",
+                "Alignment": "center",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "19.066670735677082%",
+                    "top": "39.411544227886054%",
+                    "display": "flex",
+                    "justifyContent": "center",
+                    "alignItems": "center"
+                },
+                "ParentId": "71074344-3515-43f6-ae68-4bbefa82a4b9",
+                "position": "absolute",
+                "edgeOffsets": 222
+            },
+            "children": [],
+            "id": "c25a88db-30a3-4735-9b98-fcd8f876e7c8",
+            "thunkableVersion": 428,
+            "name": "Task_List"
+        },
+        {
             "type": "Button",
             "translatedName": "Button",
             "properties": {
