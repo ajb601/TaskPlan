@@ -94,7 +94,8 @@
                 "Disabled": false,
                 "ParentId": "71074344-3515-43f6-ae68-4bbefa82a4b9",
                 "position": "absolute",
-                "edgeOffsets": 610
+                "edgeOffsets": 610,
+                "Font": "Bitter"
             },
             "children": [],
             "id": "8f2deb42-4564-4c8e-af69-e28a3684abe3",
@@ -148,7 +149,8 @@
                 "Disabled": false,
                 "ParentId": "71074344-3515-43f6-ae68-4bbefa82a4b9",
                 "position": "absolute",
-                "edgeOffsets": 610
+                "edgeOffsets": 610,
+                "Font": "Bitter"
             },
             "children": [],
             "id": "3dd5dc52-a7e3-44f3-b29d-9512cfc642ae",
@@ -216,7 +218,8 @@
                 "position": "absolute",
                 "edgeOffsets": 120,
                 "children": "Calendar",
-                "FontWeight": "bold"
+                "FontWeight": "bold",
+                "Font": "Bitter"
             },
             "children": [],
             "id": "e9a05779-3115-4c7c-b6f0-f2e3dcbc247f",

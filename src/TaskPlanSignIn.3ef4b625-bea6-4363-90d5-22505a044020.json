@@ -105,7 +105,8 @@
                 "ParentId": "3ef4b625-bea6-4363-90d5-22505a044020",
                 "position": "absolute",
                 "edgeOffsets": 397,
-                "children": "Save your details?"
+                "children": "Save your details?",
+                "Font": "Bitter"
             },
             "children": [],
             "id": "3254bf3c-9525-41e5-942b-c78e82035ab7",
@@ -309,7 +310,8 @@
                     "position": "absolute",
                     "left": "50.8%",
                     "top": "46.44630809595203%",
-                    "display": "flex"
+                    "display": "flex",
+                    "fontFamily": "Bitter"
                 },
                 "editable": true,
                 "onChangeText": "function(n){RE().f[2]++,RE().s[12]++,this.properties.Text=n}",
@@ -319,7 +321,8 @@
                 "ParentId": "3ef4b625-bea6-4363-90d5-22505a044020",
                 "position": "absolute",
                 "edgeOffsets": 332,
-                "placeholder": "Type here"
+                "placeholder": "Type here",
+                "secureTextEntry": true
             },
             "children": [],
             "id": "704aa3ef-d878-4248-aaf4-628bc7bf7d96",
@@ -383,7 +386,8 @@
                 "ParentId": "3ef4b625-bea6-4363-90d5-22505a044020",
                 "position": "absolute",
                 "edgeOffsets": 332,
-                "children": "Password:"
+                "children": "Password:",
+                "Font": "Bitter"
             },
             "children": [],
             "id": "c5d94c8d-9042-4aa5-8a27-276d249d3c34",
@@ -436,7 +440,8 @@
                     "position": "absolute",
                     "left": "33.733333333333334%",
                     "top": "39.54975637181409%",
-                    "display": "flex"
+                    "display": "flex",
+                    "fontFamily": "bitter"
                 },
                 "editable": true,
                 "onChangeText": "function(n){RE().f[2]++,RE().s[12]++,this.properties.Text=n}",
@@ -510,7 +515,8 @@
                 "ParentId": "3ef4b625-bea6-4363-90d5-22505a044020",
                 "position": "absolute",
                 "edgeOffsets": 281,
-                "children": "Email:"
+                "children": "Email:",
+                "Font": "Bitter"
             },
             "children": [],
             "id": "86c70060-1644-417b-a4ed-168d75846b80",
