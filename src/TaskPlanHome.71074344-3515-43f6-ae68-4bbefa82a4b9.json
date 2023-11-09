@@ -108,7 +108,8 @@
                 "ParentId": "71074344-3515-43f6-ae68-4bbefa82a4b9",
                 "position": "absolute",
                 "edgeOffsets": 492,
-                "children": "Travel Time:"
+                "children": "Travel Time:",
+                "Font": "Bitter"
             },
             "children": [],
             "id": "844ccdb6-3de5-4eb6-ab8b-68c526a84eb0",
@@ -177,8 +178,8 @@
                 "FontSize": 16,
                 "CustomFont": "",
                 "BackgroundColor": "rgba(255, 255, 255, 1)",
-                "Height": 36,
-                "Width": 163,
+                "Height": 38,
+                "Width": 165,
                 "Visible": true,
                 "X": 22,
                 "Y": 610,
@@ -214,7 +215,8 @@
                 "Disabled": false,
                 "ParentId": "71074344-3515-43f6-ae68-4bbefa82a4b9",
                 "position": "absolute",
-                "edgeOffsets": 610
+                "edgeOffsets": 610,
+                "Font": "Bitter"
             },
             "children": [],
             "id": "f024656f-b8f1-4413-8400-bcbae3b364ee",
@@ -268,7 +270,8 @@
                 "Disabled": false,
                 "ParentId": "71074344-3515-43f6-ae68-4bbefa82a4b9",
                 "position": "absolute",
-                "edgeOffsets": 610
+                "edgeOffsets": 610,
+                "Font": "Bitter"
             },
             "children": [],
             "id": "af71d0db-6ad9-45a9-943c-25676a34bc1e",
@@ -336,7 +339,8 @@
                 "position": "absolute",
                 "edgeOffsets": 120,
                 "children": "Task List",
-                "FontWeight": "bold"
+                "FontWeight": "bold",
+                "Font": "Bitter"
             },
             "children": [],
             "id": "6877bedf-c14a-490e-873f-e477c3975a98",
