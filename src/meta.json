@@ -51,8 +51,8 @@
                     "updatedAt": "2023-10-20T19:32:55.356Z",
                     "__v": 0,
                     "id": "653fdd39e4d684cb8f8a9021",
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64ec032dc3ccc50be1b48487/projects/653fdd39e4d684d8068a901f/assets/653fdd39e4d684cb8f8a9021?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231109%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231109T160943Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=3c67cfda3abbd9ef8921879950744a67910389acfe94b35e1529ac045974273e05799a7276a596d186336a5867fa6f68d845b36892e0732ac43943c3efb2f13750cfa7f0220e673d88c75f1aef40aa13db85a1973de8ec22dc5d2f1c23665ec2ab26f2991440de2c093d666e2e74103d9f830f3f1c8eed86d56bb664a2d3370434656baeb11923db760369f40973c4c33157002c85fe5268d1c8e26203e79e8e6617673329a00fa67359fbed4534481ea237f8662059fac35c17e5904f10cfc17be00654e7ee4b88d4ba6e9851fc97dd455c63facbe43367f74de4cc8dbb9da45fc55228d797fb01c4ff03740aed4a488d83e6b2a532b9a6aba8b5c5d36fdaac",
-                    "signedUrlExpirationTime": 1699718983708
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64ec032dc3ccc50be1b48487/projects/653fdd39e4d684d8068a901f/assets/653fdd39e4d684cb8f8a9021?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231116%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231116T162633Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=967a749567b3fbc915a8a093b347519084a16cd35877a7bb14c7939b21236bb6825ca3680d8fea97e54920e9a89041c1815a8a96c9c5e36c3ab721563c2b0eeb3f0e7dbe063f67ee67e95ebf6450d58e2c9ef9b241ac20c8564f2cb0006dc8f66b59a20e18f47d6b429c05daedf422e97a3aaa8e819342019978ab8ff835b24df6e2ac205d668722f95ab2053b112db157d175a70717cf6937e44f077477a148f7baebaaa82965077935401ffa9c67e62c0b52cb010eed29bba75e1a36c925dd5f2a99f2c52153b04519e652697542e1ec5119a410fe83aa1f248f473c67ab0303387098afc677ce93c446e08c1c5a9b2c39006005d930f98805afa4ea97e01c",
+                    "signedUrlExpirationTime": 1700324793816
                 }
             },
             "backendUpgradeVersion": 23,
@@ -90,8 +90,17 @@
                 "71074344-3515-43f6-ae68-4bbefa82a4b9": {
                     "xml": "",
                     "permissions": {
-                        "android": [],
-                        "ios": []
+                        "android": [
+                            "android.permission.ACCESS_COARSE_LOCATION",
+                            "android.permission.ACCESS_FINE_LOCATION"
+                        ],
+                        "ios": [
+                            {
+                                "name": "NSLocationWhenInUseUsageDescription",
+                                "label": "Location",
+                                "hint": "Describe why your app uses location."
+                            }
+                        ]
                     },
                     "enabledFeatures": {
                         "iap": false
@@ -100,8 +109,17 @@
                 "e8b3a5c4-6c30-46f2-9d12-fd9e076a39cd": {
                     "xml": "",
                     "permissions": {
-                        "android": [],
-                        "ios": []
+                        "android": [
+                            "android.permission.ACCESS_COARSE_LOCATION",
+                            "android.permission.ACCESS_FINE_LOCATION"
+                        ],
+                        "ios": [
+                            {
+                                "name": "NSLocationWhenInUseUsageDescription",
+                                "label": "Location",
+                                "hint": "Describe why your app uses location."
+                            }
+                        ]
                     },
                     "enabledFeatures": {
                         "iap": false
@@ -178,7 +196,9 @@
                 "cloudinaryAPISecret": null,
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {}
+                        "usageDescriptions": {
+                            "NSLocationWhenInUseUsageDescription": ""
+                        }
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -224,7 +244,9 @@
                 "cloudinaryAPISecret": null,
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {}
+                        "usageDescriptions": {
+                            "NSLocationWhenInUseUsageDescription": ""
+                        }
                     }
                 },
                 "googleMapAPIKeyAndroid": null,

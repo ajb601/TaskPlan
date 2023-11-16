@@ -117,8 +117,8 @@
             "translatedName": "Text Input",
             "properties": {
                 "Hint": "Type here",
-                "Height": 38,
-                "Width": 233,
+                "Height": 28,
+                "Width": 220,
                 "Visible": true,
                 "X": 129,
                 "Y": 388,
@@ -301,8 +301,8 @@
             "translatedName": "Text Input",
             "properties": {
                 "Hint": "Type here",
-                "Height": 30,
-                "Width": 226,
+                "Height": 28,
+                "Width": 220,
                 "Visible": true,
                 "X": 129,
                 "Y": 332,
@@ -431,8 +431,8 @@
             "translatedName": "Text Input",
             "properties": {
                 "Hint": "Type here",
-                "Height": 27,
-                "Width": 222,
+                "Height": 28,
+                "Width": 220,
                 "Visible": true,
                 "X": 129,
                 "Y": 281,
