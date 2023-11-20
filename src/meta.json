@@ -51,8 +51,8 @@
                     "updatedAt": "2023-10-20T19:32:55.356Z",
                     "__v": 0,
                     "id": "653fdd39e4d684cb8f8a9021",
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64ec032dc3ccc50be1b48487/projects/653fdd39e4d684d8068a901f/assets/653fdd39e4d684cb8f8a9021?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231116%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231116T162633Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=967a749567b3fbc915a8a093b347519084a16cd35877a7bb14c7939b21236bb6825ca3680d8fea97e54920e9a89041c1815a8a96c9c5e36c3ab721563c2b0eeb3f0e7dbe063f67ee67e95ebf6450d58e2c9ef9b241ac20c8564f2cb0006dc8f66b59a20e18f47d6b429c05daedf422e97a3aaa8e819342019978ab8ff835b24df6e2ac205d668722f95ab2053b112db157d175a70717cf6937e44f077477a148f7baebaaa82965077935401ffa9c67e62c0b52cb010eed29bba75e1a36c925dd5f2a99f2c52153b04519e652697542e1ec5119a410fe83aa1f248f473c67ab0303387098afc677ce93c446e08c1c5a9b2c39006005d930f98805afa4ea97e01c",
-                    "signedUrlExpirationTime": 1700324793816
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64ec032dc3ccc50be1b48487/projects/653fdd39e4d684d8068a901f/assets/653fdd39e4d684cb8f8a9021?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231120%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231120T060600Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=4e6e9c088957bf354d5557fc47ca7d441d67e26f29d2026f2125958a1363c5158b8a4385e12ca47faaf8ba604a9c32d745c62fc600a8ce5265127281a516cbc9d524f877de6588e2b163499990e42815620859a2f2cab18eb94ae9f9b8590e26b7be7a216d8429561ac59cdae016f6b5c2f14fd4822393be3407e341d7e1fb56a2b3ce0cb55bfc06baa5e02ecee79d2d9ebeb19f69a963fac3f2eb68e9d2709871ea7faf9004d78b39a776b6f74a5fcc1d2248afb2fc601ed3561c8143a8f62b3292da94a807a693f05f9d22ec3519f177455de8d69233e5fda29095f1268327f094b17891240fb03c2110f094e210768c277eaca24400fef982be72d4cabf60",
+                    "signedUrlExpirationTime": 1700633160969
                 }
             },
             "backendUpgradeVersion": 23,
@@ -134,7 +134,8 @@
                     "enabledFeatures": {
                         "iap": false
                     }
-                }
+                },
+                "655af499fea28f8cdd05a3e5": {}
             },
             "categories": [
                 "Just testing"
@@ -164,7 +165,7 @@
             "figmaComponents": {},
             "description": null,
             "icon": null,
-            "projectName": "TaskPlan copy2",
+            "projectName": "TaskPlan mapfix-v2",
             "settings": {
                 "teamId": null,
                 "appName": "TaskPlan",
@@ -304,11 +305,6 @@
                     "name": "mapsQueryURL",
                     "screenId": "71074344-3515-43f6-ae68-4bbefa82a4b9"
                 },
-                "1c12f216-5611-4bb9-9188-4d5e13fce4e5": {
-                    "scope": "APP",
-                    "name": "taskAddress",
-                    "screenId": "71074344-3515-43f6-ae68-4bbefa82a4b9"
-                },
                 "f26dfc6b-568b-464a-aec6-d37463b4711f": {
                     "scope": "APP",
                     "name": "transportationMode",
@@ -316,17 +312,22 @@
                 },
                 "6563a9f2-5d09-4844-acbc-4f069214a784": {
                     "scope": "APP",
-                    "name": "mapsOrigin",
+                    "name": "mapsOriginQuery",
                     "screenId": "71074344-3515-43f6-ae68-4bbefa82a4b9"
                 },
                 "7222fb9e-3641-45de-ad27-539f8b15bf0a": {
                     "scope": "APP",
-                    "name": "mapsDestination",
+                    "name": "mapsDestinationQuery",
                     "screenId": "71074344-3515-43f6-ae68-4bbefa82a4b9"
                 },
                 "410bbd21-0a82-484f-8a31-68fb295f0cb5": {
                     "scope": "APP",
                     "name": "mapsApiKey",
+                    "screenId": "71074344-3515-43f6-ae68-4bbefa82a4b9"
+                },
+                "a62aff07-b0a4-4726-bc8e-b7c97b79d0d9": {
+                    "scope": "APP",
+                    "name": "taskAddress",
                     "screenId": "71074344-3515-43f6-ae68-4bbefa82a4b9"
                 }
             },
