@@ -10,7 +10,6 @@
                             "translatedName": "Web API",
                             "isApi": true,
                             "reactType": "Web",
-                            "properties": {},
                             "children": [],
                             "id": "a7805e44-a2e6-4a23-9694-d0b86e80ef32",
                             "thunkableVersion": 428,
@@ -37,22 +36,21 @@
                 }
             },
             "assets": {
-                "653fdd39e4d684cb8f8a9021": {
+                "6564d12f3bdcadcb713dbc17": {
+                    "name": "Screenshot 2023-10-20 at 3.29.08\u202fPM.png",
+                    "originalname": "Screenshot 2023-10-20 at 3.29.08\u202fPM.png",
                     "externalStorageType": "GCS",
-                    "_id": "653fdd39e4d684cb8f8a9021",
+                    "externalName": "users/64ec032dc3ccc50be1b48487/projects/6564d12f3bdcadcb713dbc14/assets/6564d12f3bdcadcb713dbc17",
+                    "backendURI": "/project/6564d12f3bdcadcb713dbc14/getasset/6564d12f3bdcadcb713dbc17",
                     "size": "192836",
                     "mimetype": "image/png",
                     "encoding": "7bit",
-                    "originalname": "Screenshot 2023-10-20 at 3.29.08\u202fPM.png",
-                    "backendURI": "/project/653fdd39e4d684d8068a901f/getasset/653fdd39e4d684cb8f8a9021",
-                    "name": "Screenshot 2023-10-20 at 3.29.08\u202fPM.png",
-                    "externalName": "users/64ec032dc3ccc50be1b48487/projects/653fdd39e4d684d8068a901f/assets/653fdd39e4d684cb8f8a9021",
+                    "_id": "6564d12f3bdcadcb713dbc17",
                     "createdAt": "2023-10-20T19:32:55.356Z",
                     "updatedAt": "2023-10-20T19:32:55.356Z",
                     "__v": 0,
-                    "id": "653fdd39e4d684cb8f8a9021",
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64ec032dc3ccc50be1b48487/projects/653fdd39e4d684d8068a901f/assets/653fdd39e4d684cb8f8a9021?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231120%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231120T060600Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=4e6e9c088957bf354d5557fc47ca7d441d67e26f29d2026f2125958a1363c5158b8a4385e12ca47faaf8ba604a9c32d745c62fc600a8ce5265127281a516cbc9d524f877de6588e2b163499990e42815620859a2f2cab18eb94ae9f9b8590e26b7be7a216d8429561ac59cdae016f6b5c2f14fd4822393be3407e341d7e1fb56a2b3ce0cb55bfc06baa5e02ecee79d2d9ebeb19f69a963fac3f2eb68e9d2709871ea7faf9004d78b39a776b6f74a5fcc1d2248afb2fc601ed3561c8143a8f62b3292da94a807a693f05f9d22ec3519f177455de8d69233e5fda29095f1268327f094b17891240fb03c2110f094e210768c277eaca24400fef982be72d4cabf60",
-                    "signedUrlExpirationTime": 1700633160969
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64ec032dc3ccc50be1b48487/projects/6564d12f3bdcadcb713dbc14/assets/6564d12f3bdcadcb713dbc17?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231127%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231127T172608Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=6ba59acdb8d472ded64538d432af54c8559f07cec0f4cc109ca7e2189657040d04948854f5d803fa371c02b680e17b84791a5d0b9ce883e55ba23a6446364f927f70b7e705ab6fff92c6b9585b5927e04148654422af2510e08571bbb64d6c30d7ef38661690f715f98377ad6824bb3d6927aeb21a958cc5a57b3d4114cf2a81c57071a9867edb4192c7d3347b3110dca0fa9662f1630f659a3f6a9d8c69bfd7f4581a5b9737d66278891732f405f49624f2a7822d0255a5601b3bf5e7c0dc8ca878b9b4b0c6c42b42e1b9e6114c5a0f9af2b299e70eec1a01c2f97c602713b2b3e29ac9a4c0560df6493daa78e1a263a5a77e35bc83da0982a25a4f00bca9d3",
+                    "signedUrlExpirationTime": 1701278768480
                 }
             },
             "backendUpgradeVersion": 23,
@@ -134,8 +132,7 @@
                     "enabledFeatures": {
                         "iap": false
                     }
-                },
-                "655af499fea28f8cdd05a3e5": {}
+                }
             },
             "categories": [
                 "Just testing"
@@ -197,9 +194,7 @@
                 "cloudinaryAPISecret": null,
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {
-                            "NSLocationWhenInUseUsageDescription": ""
-                        }
+                        "usageDescriptions": {}
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -245,9 +240,7 @@
                 "cloudinaryAPISecret": null,
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {
-                            "NSLocationWhenInUseUsageDescription": ""
-                        }
+                        "usageDescriptions": {}
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
