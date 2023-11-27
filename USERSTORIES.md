@@ -17,19 +17,19 @@ ACCEPTANCE CRITERIA:
 - Users can mark tasks as complete and delete/edit tasks
 
 # User Story 3
-USER STORY: As a user, I want to be able create named to-do lists for tasks and view all of my named lists in the TaskPlan app 
+USER STORY: As a user, I want to be able to view my created tasks in a calendar view in the TaskPlan app as well as see the details of my created task including ETA.  
 ACCEPTANCE CRITERIA: 
-- A central screen to view all named lists
-- A "create list" button to create a new list
-- A text box to enter the name for my new list
-- Add new list to database upon creation
+- A calendar screen to view tasks in a calendar view
+- Clicking on a task will display its details
+- Easy navigation through months, days, years
 
 # User Story 4
-USER STORY: As a user, I want to be able to delete my named to-do lists for tasks in the TaskPlan app
+USER STORY: As a user, I want to be able to easily delete my created tasks when I am done with them/do not want them anymore using the TaskPlan app. 
 ACCEPTANCE CRITERIA:  
-- A hamburger menu inside a named list screen
-- A "delete list" option inside the hamburger menu that deletes the list from the list view
-- List is removed from database upon deletion
+- The app provides a delete option
+- Deleting should be safe and not cause issues with other bits of information
+- A prompt should appear allowing the user to confirm the delete
+- Tasks should be subsequently removed from the database after deletion
 
 # User Story 5
 USER STORY:  As a user, I want to be able to be reminded of when I should leave my house to be on time with TaskPlan.
@@ -39,7 +39,8 @@ ACCEPTANCE CRITERIA:
 - Reminder is sent to user when it compares the time between when they should leave and the time between their locations
 
 # User Story 6
-USER STORY: As a user of TaskPlan, I want to be able to color code my reminders so I can visually tell the importance between my tasks.
+USER STORY: As a user, I want the TaskPlan app to have an aesthetically pleasing and visually engaging interface so that I can enjoy the app.
 ACCEPTANCE CRITERIA:  
--Users can change the colors of the tasks/reminders on their lists.
--TaskPlan should save the color coding based per the user's settings.
+- Consistent Color Scheme
+- Clean Design
+- Visuals Load Efficiently
