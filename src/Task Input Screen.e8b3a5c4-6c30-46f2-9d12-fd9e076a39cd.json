@@ -494,7 +494,8 @@
                             "top": "45.24690779610195%",
                             "display": "flex",
                             "fontSize": 16,
-                            "color": "rgba(0, 0, 0, 65)"
+                            "color": "rgba(0, 0, 0, 65)",
+                            "borderColor": "rgba(0, 0, 0, 0)"
                         },
                         "ParentId": "e8b3a5c4-6c30-46f2-9d12-fd9e076a39cd",
                         "position": "absolute",
