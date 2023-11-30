@@ -49,8 +49,8 @@
                     "createdAt": "2023-10-20T19:32:55.356Z",
                     "updatedAt": "2023-10-20T19:32:55.356Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64ec032dc3ccc50be1b48487/projects/6564d12f3bdcadcb713dbc14/assets/6564d12f3bdcadcb713dbc17?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231127%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231127T172608Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=6ba59acdb8d472ded64538d432af54c8559f07cec0f4cc109ca7e2189657040d04948854f5d803fa371c02b680e17b84791a5d0b9ce883e55ba23a6446364f927f70b7e705ab6fff92c6b9585b5927e04148654422af2510e08571bbb64d6c30d7ef38661690f715f98377ad6824bb3d6927aeb21a958cc5a57b3d4114cf2a81c57071a9867edb4192c7d3347b3110dca0fa9662f1630f659a3f6a9d8c69bfd7f4581a5b9737d66278891732f405f49624f2a7822d0255a5601b3bf5e7c0dc8ca878b9b4b0c6c42b42e1b9e6114c5a0f9af2b299e70eec1a01c2f97c602713b2b3e29ac9a4c0560df6493daa78e1a263a5a77e35bc83da0982a25a4f00bca9d3",
-                    "signedUrlExpirationTime": 1701278768480
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64ec032dc3ccc50be1b48487/projects/6564d12f3bdcadcb713dbc14/assets/6564d12f3bdcadcb713dbc17?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231130%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231130T160146Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=990c28b15e1ab4d1d6324dbf6d7152b92aa2969526591eec89719a0c35dec41fb2892ed7d2ada176707f2f761cceb32b3124bf603e8e8858b2cb6373bcf4cd9bfa98876136c8e1b3626bc73532136a9136694268bcb0cd7649a58517dd9ca0ca0b0fd7656451a624202753af1520498ecf6e711c7a59b60ebdd577b730f5351d0c6dd159224c7826a8c259cc096525d052730e6da5b285eec829d505e5d01186bda5956e53429c1427afa0d031adfa12fa82ae425e36321bd015c6cdd71572b7694c619329c64df4081513f90dc214be871f8dc431d4f738885bd23fe0477b5fa1ded90f964a648c555d491185ba5fe00b40e75f1264daa57512ee0a0bf3113a",
+                    "signedUrlExpirationTime": 1701532906014
                 }
             },
             "backendUpgradeVersion": 23,
@@ -162,7 +162,7 @@
             "figmaComponents": {},
             "description": null,
             "icon": null,
-            "projectName": "TaskPlan mapfix-v3",
+            "projectName": "TaskPlan delete-task-v1",
             "settings": {
                 "teamId": null,
                 "appName": "TaskPlan",
@@ -325,6 +325,11 @@
                 "a62aff07-b0a4-4726-bc8e-b7c97b79d0d9": {
                     "scope": "APP",
                     "name": "taskAddress",
+                    "screenId": "71074344-3515-43f6-ae68-4bbefa82a4b9"
+                },
+                "6df33c64-1c37-4015-bbf2-032460255b6f": {
+                    "scope": "APP",
+                    "name": "vTaskName",
                     "screenId": "71074344-3515-43f6-ae68-4bbefa82a4b9"
                 }
             },
