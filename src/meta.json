@@ -10,6 +10,14 @@
                             "translatedName": "Web API",
                             "isApi": true,
                             "reactType": "Web",
+                            "properties": {
+                                "Headers": {
+                                    "Authorization": "Bearer AIzaSyA7TRimRinCJNvWrCmIpy0K6ux3zfpCzJY",
+                                    "Content-type": "application/json"
+                                },
+                                "QueryParameters": {},
+                                "URL": ""
+                            },
                             "children": [],
                             "id": "a7805e44-a2e6-4a23-9694-d0b86e80ef32",
                             "thunkableVersion": 428,
@@ -36,21 +44,22 @@
                 }
             },
             "assets": {
-                "6564d12f3bdcadcb713dbc17": {
-                    "name": "Screenshot 2023-10-20 at 3.29.08\u202fPM.png",
-                    "originalname": "Screenshot 2023-10-20 at 3.29.08\u202fPM.png",
+                "653fdd39e4d684cb8f8a9021": {
                     "externalStorageType": "GCS",
-                    "externalName": "users/64ec032dc3ccc50be1b48487/projects/6564d12f3bdcadcb713dbc14/assets/6564d12f3bdcadcb713dbc17",
-                    "backendURI": "/project/6564d12f3bdcadcb713dbc14/getasset/6564d12f3bdcadcb713dbc17",
+                    "_id": "653fdd39e4d684cb8f8a9021",
                     "size": "192836",
                     "mimetype": "image/png",
                     "encoding": "7bit",
-                    "_id": "6564d12f3bdcadcb713dbc17",
+                    "originalname": "Screenshot 2023-10-20 at 3.29.08\u202fPM.png",
+                    "backendURI": "/project/653fdd39e4d684d8068a901f/getasset/653fdd39e4d684cb8f8a9021",
+                    "name": "Screenshot 2023-10-20 at 3.29.08\u202fPM.png",
+                    "externalName": "users/64ec032dc3ccc50be1b48487/projects/653fdd39e4d684d8068a901f/assets/653fdd39e4d684cb8f8a9021",
                     "createdAt": "2023-10-20T19:32:55.356Z",
                     "updatedAt": "2023-10-20T19:32:55.356Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64ec032dc3ccc50be1b48487/projects/6564d12f3bdcadcb713dbc14/assets/6564d12f3bdcadcb713dbc17?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231130%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231130T160146Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=990c28b15e1ab4d1d6324dbf6d7152b92aa2969526591eec89719a0c35dec41fb2892ed7d2ada176707f2f761cceb32b3124bf603e8e8858b2cb6373bcf4cd9bfa98876136c8e1b3626bc73532136a9136694268bcb0cd7649a58517dd9ca0ca0b0fd7656451a624202753af1520498ecf6e711c7a59b60ebdd577b730f5351d0c6dd159224c7826a8c259cc096525d052730e6da5b285eec829d505e5d01186bda5956e53429c1427afa0d031adfa12fa82ae425e36321bd015c6cdd71572b7694c619329c64df4081513f90dc214be871f8dc431d4f738885bd23fe0477b5fa1ded90f964a648c555d491185ba5fe00b40e75f1264daa57512ee0a0bf3113a",
-                    "signedUrlExpirationTime": 1701532906014
+                    "id": "653fdd39e4d684cb8f8a9021",
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64ec032dc3ccc50be1b48487/projects/653fdd39e4d684d8068a901f/assets/653fdd39e4d684cb8f8a9021?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231202%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231202T185620Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=afe0e987491d28f976eef2ea4c340a6d7d385cfebb79034cf48d14e6da84de790449b4711c748c7205f9618b8bc23629d4cd4b9bd9d4bad0c7d379bb3c8b480d5b77ec1d653ce299c284fd022f08854a49fd3bf0d856f14817c0282e91c8f8fa860d4dd0732b238d9a69c46b7fed54af261e0dedace2ebacec067523a8c83188610e5fbe8cb420f847f5b44d8ec94ac986e3bf1330db3fba37633b0aee39e831567e4ae316a108f25b97b0f911553d880638683b6223fb8a7846cdad56f426644a458e960c04be66dc8cabe08892246b462e44bc99ea2bd15acece7a2b9c9cfd640a44bfa796bc7c6e4b6560b29c8d0bb75e6c797bcbfd2026b731f7bcb8f970",
+                    "signedUrlExpirationTime": 1701716180343
                 }
             },
             "backendUpgradeVersion": 23,
@@ -88,17 +97,8 @@
                 "71074344-3515-43f6-ae68-4bbefa82a4b9": {
                     "xml": "",
                     "permissions": {
-                        "android": [
-                            "android.permission.ACCESS_COARSE_LOCATION",
-                            "android.permission.ACCESS_FINE_LOCATION"
-                        ],
-                        "ios": [
-                            {
-                                "name": "NSLocationWhenInUseUsageDescription",
-                                "label": "Location",
-                                "hint": "Describe why your app uses location."
-                            }
-                        ]
+                        "android": [],
+                        "ios": []
                     },
                     "enabledFeatures": {
                         "iap": false
@@ -132,7 +132,8 @@
                     "enabledFeatures": {
                         "iap": false
                     }
-                }
+                },
+                "655af499fea28f8cdd05a3e5": {}
             },
             "categories": [
                 "Just testing"
@@ -162,7 +163,7 @@
             "figmaComponents": {},
             "description": null,
             "icon": null,
-            "projectName": "TaskPlan delete-task-v1",
+            "projectName": "TaskPlan mapfix-v4",
             "settings": {
                 "teamId": null,
                 "appName": "TaskPlan",
@@ -194,9 +195,7 @@
                 "cloudinaryAPISecret": null,
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {
-                            "NSLocationWhenInUseUsageDescription": ""
-                        }
+                        "usageDescriptions": {}
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -242,9 +241,7 @@
                 "cloudinaryAPISecret": null,
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {
-                            "NSLocationWhenInUseUsageDescription": ""
-                        }
+                        "usageDescriptions": {}
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -297,24 +294,14 @@
                     "name": "currentlySigningUp",
                     "screenId": "85c8a52c-631f-45a6-a273-fb418088f3a3"
                 },
-                "afa5155f-c283-4ce9-98ef-ef3f86b870ee": {
-                    "scope": "APP",
-                    "name": "mapsQueryURL",
-                    "screenId": "71074344-3515-43f6-ae68-4bbefa82a4b9"
-                },
                 "f26dfc6b-568b-464a-aec6-d37463b4711f": {
                     "scope": "APP",
-                    "name": "transportationMode",
+                    "name": "mapsMode",
                     "screenId": "71074344-3515-43f6-ae68-4bbefa82a4b9"
                 },
                 "6563a9f2-5d09-4844-acbc-4f069214a784": {
                     "scope": "APP",
-                    "name": "mapsOriginQuery",
-                    "screenId": "71074344-3515-43f6-ae68-4bbefa82a4b9"
-                },
-                "7222fb9e-3641-45de-ad27-539f8b15bf0a": {
-                    "scope": "APP",
-                    "name": "mapsDestinationQuery",
+                    "name": "mapsOrigin",
                     "screenId": "71074344-3515-43f6-ae68-4bbefa82a4b9"
                 },
                 "410bbd21-0a82-484f-8a31-68fb295f0cb5": {
@@ -324,12 +311,12 @@
                 },
                 "a62aff07-b0a4-4726-bc8e-b7c97b79d0d9": {
                     "scope": "APP",
-                    "name": "taskAddress",
+                    "name": "mapsDestination",
                     "screenId": "71074344-3515-43f6-ae68-4bbefa82a4b9"
                 },
-                "6df33c64-1c37-4015-bbf2-032460255b6f": {
+                "f3a06b10-af81-4780-9ecd-ce86f6e7d3e2": {
                     "scope": "APP",
-                    "name": "vTaskName",
+                    "name": "mapsBaseUrl",
                     "screenId": "71074344-3515-43f6-ae68-4bbefa82a4b9"
                 }
             },
