@@ -10,14 +10,6 @@
                             "translatedName": "Web API",
                             "isApi": true,
                             "reactType": "Web",
-                            "properties": {
-                                "Headers": {
-                                    "Authorization": "Bearer AIzaSyA7TRimRinCJNvWrCmIpy0K6ux3zfpCzJY",
-                                    "Content-type": "application/json"
-                                },
-                                "QueryParameters": {},
-                                "URL": ""
-                            },
                             "children": [],
                             "id": "a7805e44-a2e6-4a23-9694-d0b86e80ef32",
                             "thunkableVersion": 428,
@@ -44,22 +36,21 @@
                 }
             },
             "assets": {
-                "653fdd39e4d684cb8f8a9021": {
+                "6564d12f3bdcadcb713dbc17": {
+                    "name": "Screenshot 2023-10-20 at 3.29.08\u202fPM.png",
+                    "originalname": "Screenshot 2023-10-20 at 3.29.08\u202fPM.png",
                     "externalStorageType": "GCS",
-                    "_id": "653fdd39e4d684cb8f8a9021",
+                    "externalName": "users/64ec032dc3ccc50be1b48487/projects/6564d12f3bdcadcb713dbc14/assets/6564d12f3bdcadcb713dbc17",
+                    "backendURI": "/project/6564d12f3bdcadcb713dbc14/getasset/6564d12f3bdcadcb713dbc17",
                     "size": "192836",
                     "mimetype": "image/png",
                     "encoding": "7bit",
-                    "originalname": "Screenshot 2023-10-20 at 3.29.08\u202fPM.png",
-                    "backendURI": "/project/653fdd39e4d684d8068a901f/getasset/653fdd39e4d684cb8f8a9021",
-                    "name": "Screenshot 2023-10-20 at 3.29.08\u202fPM.png",
-                    "externalName": "users/64ec032dc3ccc50be1b48487/projects/653fdd39e4d684d8068a901f/assets/653fdd39e4d684cb8f8a9021",
+                    "_id": "6564d12f3bdcadcb713dbc17",
                     "createdAt": "2023-10-20T19:32:55.356Z",
                     "updatedAt": "2023-10-20T19:32:55.356Z",
                     "__v": 0,
-                    "id": "653fdd39e4d684cb8f8a9021",
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64ec032dc3ccc50be1b48487/projects/653fdd39e4d684d8068a901f/assets/653fdd39e4d684cb8f8a9021?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231202%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231202T185620Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=afe0e987491d28f976eef2ea4c340a6d7d385cfebb79034cf48d14e6da84de790449b4711c748c7205f9618b8bc23629d4cd4b9bd9d4bad0c7d379bb3c8b480d5b77ec1d653ce299c284fd022f08854a49fd3bf0d856f14817c0282e91c8f8fa860d4dd0732b238d9a69c46b7fed54af261e0dedace2ebacec067523a8c83188610e5fbe8cb420f847f5b44d8ec94ac986e3bf1330db3fba37633b0aee39e831567e4ae316a108f25b97b0f911553d880638683b6223fb8a7846cdad56f426644a458e960c04be66dc8cabe08892246b462e44bc99ea2bd15acece7a2b9c9cfd640a44bfa796bc7c6e4b6560b29c8d0bb75e6c797bcbfd2026b731f7bcb8f970",
-                    "signedUrlExpirationTime": 1701716180343
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64ec032dc3ccc50be1b48487/projects/6564d12f3bdcadcb713dbc14/assets/6564d12f3bdcadcb713dbc17?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231204%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231204T165802Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=16c61f30b54d1790ec3f07afa895fc538c5927cc691866febc0695ffc3319ce37d700321636a31a102b66dfdddf3cf1dde8cdfdd9f2626d1ab76263608d97e854a74170dba3b38a3168b8e1711d468a5474f112a08997989ff5bb515e28f8b76196d95eeaba4cb2150cc9f4ee35d2aa4b715bc27968f43d9642a3e0905005044b2b3ff0a9dfd5b724d5cb8a9e25967ad2c087f765624323ea3de91d4d7fccf08e95e1b169b98254264e664b0a96d7a79ecb462988a2a233e5ba778b0d1c427f69a8a1c3ad55ec9f2e133e9fcc5c25437b33e457df77099fd1ef5391d5ffede3994c4ce4e9db5d5eed85fab00aeb12cd61793c68a6331038409087561ce2f57e7",
+                    "signedUrlExpirationTime": 1701881882293
                 }
             },
             "backendUpgradeVersion": 23,
@@ -132,8 +123,7 @@
                     "enabledFeatures": {
                         "iap": false
                     }
-                },
-                "655af499fea28f8cdd05a3e5": {}
+                }
             },
             "categories": [
                 "Just testing"
@@ -163,7 +153,7 @@
             "figmaComponents": {},
             "description": null,
             "icon": null,
-            "projectName": "TaskPlan mapfix-v4",
+            "projectName": "TaskPlan delete-task-v2",
             "settings": {
                 "teamId": null,
                 "appName": "TaskPlan",
@@ -294,6 +284,11 @@
                     "name": "currentlySigningUp",
                     "screenId": "85c8a52c-631f-45a6-a273-fb418088f3a3"
                 },
+                "afa5155f-c283-4ce9-98ef-ef3f86b870ee": {
+                    "scope": "APP",
+                    "name": "mapsBaseURL",
+                    "screenId": "71074344-3515-43f6-ae68-4bbefa82a4b9"
+                },
                 "f26dfc6b-568b-464a-aec6-d37463b4711f": {
                     "scope": "APP",
                     "name": "mapsMode",
@@ -314,9 +309,9 @@
                     "name": "mapsDestination",
                     "screenId": "71074344-3515-43f6-ae68-4bbefa82a4b9"
                 },
-                "f3a06b10-af81-4780-9ecd-ce86f6e7d3e2": {
+                "6df33c64-1c37-4015-bbf2-032460255b6f": {
                     "scope": "APP",
-                    "name": "mapsBaseUrl",
+                    "name": "vTaskName",
                     "screenId": "71074344-3515-43f6-ae68-4bbefa82a4b9"
                 }
             },
