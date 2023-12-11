@@ -1044,7 +1044,7 @@
             "translatedName": "Image",
             "properties": {
                 "Picture": "Screenshot 2023-10-20 at 3.29.08\u202fPM.png",
-                "resizeMode": "stretch",
+                "resizeMode": "contain",
                 "Height": 112,
                 "Width": 143,
                 "Visible": true,
