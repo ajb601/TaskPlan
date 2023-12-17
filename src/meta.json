@@ -49,8 +49,8 @@
                     "createdAt": "2023-10-20T19:32:55.356Z",
                     "updatedAt": "2023-10-20T19:32:55.356Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64ec032dc3ccc50be1b48487/projects/6564d12f3bdcadcb713dbc14/assets/6564d12f3bdcadcb713dbc17?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231211%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231211T170359Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=72e1a084ff86b7d9ede641be8d06937e75f31b807e6da9b4f8a80849190e12f5dbbcd3bce80872695eefaae99d899270b13b6e91d85bef13fe6d80840baddbfccda95bb7612357076bffc0bf70678259560881ef8d6565a0f9568806eaf3928689f7adc203219787051b4e3c7bdb20a31745cd200b902e16ff1ff25436c01356117eeb2ac1fbde918b0c162ca6249894adc26bbb94494bf1d7f01ba33a873941fe565dc93be50f2d52e8cc6fd8f079f72c1d6b7ed465f48db61ee31e887857f3a118964e44bde2e18521b6103d7152f730c32a17212b371c1c013cf12e37169287b653485581c047c62803726f62a68139e8c03ee5630f99349ab7fe7be9f249",
-                    "signedUrlExpirationTime": 1702487039616
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64ec032dc3ccc50be1b48487/projects/6564d12f3bdcadcb713dbc14/assets/6564d12f3bdcadcb713dbc17?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231216%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231216T235114Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=18b94549586a65e2d4e5cbcbdd150a1b10e507547c2f4366c1ba738bcec9ac0754fc631d56e8e3252786775962f93ea2edefae846b751b176b8c44e1d771acfa27279061a9fbcef6f8ef96835b66a9c1d737073669dba12f0ab41b46f7e99faacb18f02edf746a90cb4bd6275f4e449ae2dde4f82bca660e70f9d8500c20a187a60c3be59039fb5293358549800e8d94f50dbf68312442a66d915970ffa56dc1fa01de655cba22dca762aebc4271cbbc4181fcdadbf0275f8b818007a47a2f5f041065121029739af3507231f4c681edc653f6fa8a5c9b55830a13b071e0e00f42f6a68a8b1213a67d46b54f8982f4517cad0c849ffaa719219c33fa482d4508",
+                    "signedUrlExpirationTime": 1702943474878
                 }
             },
             "backendUpgradeVersion": 23,
@@ -153,7 +153,7 @@
             "figmaComponents": {},
             "description": null,
             "icon": null,
-            "projectName": "TaskPlan delete-task-v2",
+            "projectName": "TaskPlan fix-traveltime-text",
             "settings": {
                 "teamId": null,
                 "appName": "TaskPlan",
@@ -255,7 +255,7 @@
             "customProperties": [],
             "modules": [],
             "usesDragDropUi": true,
-            "totalCopy": "2",
+            "totalCopy": "0",
             "totalStar": "0",
             "starAction": "star",
             "variables": {
