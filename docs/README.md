@@ -14,7 +14,8 @@ TaskPlan is a reminder-based time and task scheduling app for organizing life, s
 <!-- Installation instructions -->
 # Installation
 Download the TaskPlan Internal Test (Only Avaliable to Alpha Testers) here: https://play.google.com/apps/internaltest/4701100867604068899
-                           Provide Feedback here: https://docs.google.com/forms/d/e/1FAIpQLSfDuoK4eBdg3LnOx3ybd4y96uybInEemTgwxoehmkezlBBX5Q/viewform?usp=sf_link
+
+Provide Feedback here: https://docs.google.com/forms/d/e/1FAIpQLSfDuoK4eBdg3LnOx3ybd4y96uybInEemTgwxoehmkezlBBX5Q/viewform?usp=sf_link
 
 <!-- Alpha testers -->
 # Alpha Testing
