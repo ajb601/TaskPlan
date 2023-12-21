@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "patternProperties": {
+    "^[A-Za-z0-9]+$|^null$": {
+      "type": "object",
+      "patternProperties": {
+        "^.+$": {
+          "type": "object",
+          "properties": {
+            "Date": {
+              "type": "string",
+              "format": "date-time"
+            },
+            "Details": {
+              "type": "string"
+            },
+            "Location": {
+              "type": "object",
+              "properties": {
+                "Address": {
+                  "type": "string"
+                },
+                "Mode": {
+                  "type": "object",
+                  "properties": {
+                    "Car": { "type": "boolean" },
+                    "Train": { "type": "boolean" },
+                    "Walk": { "type": "boolean" }
+                  },
+                  "required": ["Car", "Walk"],
+                  "additionalProperties": false
+                }
+              },
+              "required": ["Address", "Mode"]
+            },
+            "Task Name": {
+              "type": "string"
+            },
+            "Time": {
+              "type": "string"
+            },
+            "Repeats": {
+              "type": "object",
+              "properties": {
+                "Monday": { "type": "boolean" },
+                "Tuesday": { "type": "boolean" },
+                "Wednesday": { "type": "boolean" },
+                "Thursday": { "type": "boolean" },
+                "Friday": { "type": "boolean" },
+                "Saturday": { "type": "boolean" },
+                "Sunday": { "type": "boolean" }
+              },
+              "additionalProperties": false
+            }
+          },
+          "required": ["Date", "Task Name", "Time"],
+          "additionalProperties": false
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}
